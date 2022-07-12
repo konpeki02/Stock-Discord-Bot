@@ -25,13 +25,13 @@ The link to determine your user agent can be found here:
 - *bot.py* - Contains the Discord Bot and scrapper
 - *scrapper.py* - Allows to test the Discord Bot to ensure it is online
 - *test_bot.py* - Unittest for commands of discord bot
-- *test_scrapper.py - Unittest for testing functionality of scrapper from Yahoo Finance
+- *test_scrapper.py* - Unittest for testing functionality of scrapper from Yahoo Finance
 - *agent.json* - Stores the user agent information for scrapping
 - *key.json* - Stores the Discord Bot Token
 
 ## To Run the Bot
 1.  Download all the files from the repository.
-2.  Compile the *main.py* file using `python main.py`.
+2.  Run the *bot.py* file using `python bot.py`.
 3.  Ensure the discord bot is added to server.
 4.  A message should appear noting the discord bot is online `Logged on...`.
 
