@@ -15,10 +15,10 @@
 
 ## Screen Shots
 ## Required Downloads for this Bot
-1.Discord Account and Bot Token. The link to create a Discord Bot can be found here: 
+1. Discord Account and Bot Token. The link to create a Discord Bot can be found here: 
 [https://discord.com/developers/docs/game-sdk/applications](https://discord.com/developers/docs/game-sdk/applications)
 
-2.Enter the token for the discord bot in the `key.json` file and enter the user agent into the `agent.json` file.
+2. Enter the token for the discord bot in the `key.json` file and enter the user agent into the `agent.json` file.
 The link to determine your user agent can be found here:
 [https://www.whatismybrowser.com/detect/what-is-my-user-agent/](https://www.whatismybrowser.com/detect/what-is-my-user-agent/)
 ## File Details
