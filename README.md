@@ -3,8 +3,13 @@
 - This project is a Discord Bot game implemented in Python which returns live stock and equities prices to a discord channel.
 ----
 **Features**:
-- `!quote` returns stock and equity prices for the SP 500, Nasdaq, and Dow Jones indexes
+- `!quote` returns a full quote containing price, percent change, difference, and time
+- `!price` returns price and ticker name
+- `!percent_change` returns percent change of ticker and name
+- `!change` returns the amount the equity lost or gained during the trading day
+- `!futures` returns a full quote of VIX, and major E-Mini futures in an embeded image
 - Implemented scrapper using BeautifulSoup4 to return live stock and equity prices from Yahoo Finance
+- Testing functionality of scrapper and discord bot with Unittests
 
 ----
 
@@ -17,9 +22,10 @@
 The link to determine your user agent can be found here:
 [https://www.whatismybrowser.com/detect/what-is-my-user-agent/](https://www.whatismybrowser.com/detect/what-is-my-user-agent/)
 ## File Details
-- *main.py* - Contains the Discord Bot and scrapper
-- *test.py* - Allows to test the Discord Bot to ensure it is online
-- *scrapper.test.py* - Allows to test the scrapper on Yahoo Finance
+- *bot.py* - Contains the Discord Bot and scrapper
+- *scrapper.py* - Allows to test the Discord Bot to ensure it is online
+- *test_bot.py* - Unittest for commands of discord bot
+- *test_scrapper.py - Unittest for testing functionality of scrapper from Yahoo Finance
 - *agent.json* - Stores the user agent information for scrapping
 - *key.json* - Stores the Discord Bot Token
 
