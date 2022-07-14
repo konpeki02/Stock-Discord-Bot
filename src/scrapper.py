@@ -13,9 +13,9 @@ def getAgent(filename, target):
 
 
 def find_price(ticker):
-    headers = getAgent('agent.json', 'agent')
+    # headers = getAgent('agent.json', 'agent')
     # headers = {
-    #     'OR ADD HEADER HERE'
+    #     "user-agent":'ADD user agent here'
     # }
 
     url = 'https://finance.yahoo.com/quote/%s/' % ticker
